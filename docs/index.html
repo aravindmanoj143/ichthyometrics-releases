@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IchthyoMetrics – Free Fish Morphometrics Software (Windows &amp; macOS)</title>
+<meta name="description" content="IchthyoMetrics is free desktop software for fish morphometrics: set the scale from a ruler, place landmarks, get truss-network and traditional measurements, ratios and size correction, and export to MorphoJ, PAST, R (geomorph) and Excel.">
+<meta name="keywords" content="fish morphometrics software, truss network, landmarks, geometric morphometrics, ichthyology, fish taxonomy, meristics, MorphoJ, PAST, geomorph, tpsDig, fish measurement">
+<meta name="author" content="Aravind Manoj">
+<link rel="canonical" href="https://aravindmanoj143.github.io/ichthyometrics-releases/">
+<link rel="icon" type="image/png" href="icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IchthyoMetrics – Free Fish Morphometrics Software">
+<meta property="og:description" content="Measure fish from calibrated photographs: landmarks, truss and traditional measurements, exports for MorphoJ, PAST, R and Excel. Free for academic use.">
+<meta property="og:url" content="https://aravindmanoj143.github.io/ichthyometrics-releases/">
+<meta property="og:image" content="https://aravindmanoj143.github.io/ichthyometrics-releases/templates.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "IchthyoMetrics",
+      "softwareVersion": "0.1.1",
+      "applicationCategory": "ScientificApplication",
+      "applicationSubCategory": "Fish morphometrics",
+      "operatingSystem": "Windows 10, Windows 11, macOS 11+",
+      "description": "Free desktop software for fish morphometrics: scale from a ruler, landmarks, truss-network and traditional measurements, ratio tables, size correction, and exports for MorphoJ, PAST, R (geomorph) and Excel.",
+      "url": "https://aravindmanoj143.github.io/ichthyometrics-releases/",
+      "downloadUrl": "https://github.com/aravindmanoj143/ichthyometrics-releases/releases/latest",
+      "screenshot": "https://aravindmanoj143.github.io/ichthyometrics-releases/templates.jpg",
+      "image": "https://aravindmanoj143.github.io/ichthyometrics-releases/icon.png",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "author": { "@type": "Person", "name": "Aravind Manoj" },
+      "publisher": { "@type": "Organization", "name": "Freshwaters India Foundation", "url": "https://fwif.org/" },
+      "keywords": "fish morphometrics, truss network, landmarks, ichthyology, fish taxonomy, MorphoJ, PAST, geomorph"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "IchthyoMetrics v0.1.1 Tutorial | Fish Morphometrics Software",
+      "description": "Step-by-step tutorial for IchthyoMetrics, free fish morphometrics software: new project, scale, landmarks, measurements and exports.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_m4lDe5SqaI/hqdefault.jpg",
+      "uploadDate": "2026-10-03T11:22:47-07:00",
+      "embedUrl": "https://www.youtube.com/embed/_m4lDe5SqaI",
+      "contentUrl": "https://www.youtube.com/watch?v=_m4lDe5SqaI"
+    }
+  ]
+}
+</script>
+<style>
+  :root { --bg:#f6f5f2; --card:#fff; --ink:#1d2327; --muted:#5b6670; --accent:#285e70; --line:#e2e0da; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#16191b; --card:#1f2427; --ink:#e8eaeb; --muted:#a2adb5; --accent:#7cc0d6; --line:#30373b; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  main { max-width:960px; margin:0 auto; padding:0 16px 48px; }
+  header { text-align:center; padding:48px 0 24px; }
+  header img.logo { width:96px; height:96px; border-radius:20px; }
+  h1 { font-size:clamp(28px,5vw,42px); line-height:1.2; margin:16px 0 8px; }
+  h2 { font-size:26px; margin:48px 0 12px; }
+  h3 { font-size:19px; margin:24px 0 6px; }
+  .lead { font-size:19px; color:var(--muted); max-width:720px; margin:0 auto; }
+  a { color:var(--accent); }
+  .btns { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin:24px 0 8px; }
+  .btn { display:inline-block; padding:12px 22px; border-radius:10px; background:var(--accent); color:#fff; text-decoration:none; font-weight:600; }
+  @media (prefers-color-scheme: dark) { .btn { color:#0d1a1f; } }
+  .btn.alt { background:transparent; color:var(--accent); border:1.5px solid var(--accent); }
+  .small { font-size:14px; color:var(--muted); }
+  figure { margin:24px 0; }
+  figure img { width:100%; height:auto; border-radius:12px; border:1px solid var(--line); display:block; }
+  figcaption { font-size:14px; color:var(--muted); margin-top:6px; text-align:center; }
+  .video { position:relative; padding-top:56.25%; border-radius:12px; overflow:hidden; border:1px solid var(--line); }
+  .video iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px 20px; }
+  .card h3 { margin-top:0; }
+  table { width:100%; border-collapse:collapse; background:var(--card); border-radius:12px; overflow:hidden; }
+  th, td { text-align:left; padding:10px 14px; border-bottom:1px solid var(--line); vertical-align:top; }
+  blockquote { margin:0; padding:12px 18px; background:var(--card); border-left:4px solid var(--accent); border-radius:6px; }
+  footer { text-align:center; font-size:14px; color:var(--muted); padding:32px 16px; border-top:1px solid var(--line); }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <img class="logo" src="icon.png" alt="IchthyoMetrics icon" width="96" height="96">
+  <h1>IchthyoMetrics: free fish morphometrics software</h1>
+  <p class="lead">Measure fish from calibrated photographs. Set the scale from a ruler, place landmarks,
+  get truss-network and traditional measurements, and export ready-to-analyse data for
+  MorphoJ, PAST, R (geomorph) and Excel.</p>
+  <div class="btns">
+    <a class="btn" href="https://github.com/aravindmanoj143/ichthyometrics-releases/releases/latest">Download for Windows &amp; macOS</a>
+    <a class="btn alt" href="#tutorial">Watch the tutorial</a>
+  </div>
+  <p class="small">Version 0.1.1 · Free for academic and non-commercial use · Works offline</p>
+</header>
+
+<figure>
+  <img src="templates.jpg" alt="IchthyoMetrics new project screen with landmark templates: goby truss, Cypriniformes Armbruster 2012, Hubbs and Lagler traditional measurements, general fish truss, cichlid truss" width="1600" height="1000">
+  <figcaption>Choosing a landmark template for a new morphometrics project.</figcaption>
+</figure>
+
+<p>IchthyoMetrics is made for ichthyologists, fish taxonomists, fisheries biologists and students
+who measure specimens for species descriptions, taxonomic revisions and morphometric studies.
+It runs on Windows and macOS, and your photos and data stay on your own computer.</p>
+
+<h2 id="tutorial">Video tutorial</h2>
+<div class="video">
+  <iframe src="https://www.youtube-nocookie.com/embed/_m4lDe5SqaI" title="IchthyoMetrics v0.1.1 Tutorial | Fish Morphometrics Software" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<h2>Features</h2>
+<div class="grid">
+  <div class="card"><h3>Scale from a ruler</h3>Click two points on a ruler or grid paper in the photo, so every distance is in millimetres.</div>
+  <div class="card"><h3>Guided landmarking</h3>Landmarks in a fixed order with a picture guide, zoom, pan and a magnifier for precise placement.</div>
+  <div class="card"><h3>Truss and traditional measurements</h3>Standard length, head length, body depth, eye diameter, fin bases and full truss networks, calculated automatically.</div>
+  <div class="card"><h3>Ratios and size correction</h3>Ratio tables (% SL, % head length) with mean, SD, min and max, and allometric size correction (Elliott et al. 1995).</div>
+  <div class="card"><h3>Left or right side</h3>Right-side photos are mirrored in coordinate exports. Preservation state (fresh, formalin, ethanol) is recorded per project.</div>
+  <div class="card"><h3>Master data</h3>Reference pictures and landmark positions per fish group (gobies, cyprinids …), shared by all projects.</div>
+</div>
+
+<h3>Built-in landmark templates</h3>
+<ul>
+  <li>General fish truss, 10 landmarks (Strauss &amp; Bookstein 1982 style)</li>
+  <li>Goby truss, 14 landmarks</li>
+  <li>Cichlid / perch truss, 14 landmarks</li>
+  <li>Cypriniformes lateral and dorsal views (Armbruster 2012)</li>
+  <li>Traditional measurements after Hubbs &amp; Lagler (1964)</li>
+</ul>
+<p>Templates are editable JSON files: duplicate one or load your own.</p>
+
+<h3>Exports</h3>
+<table>
+  <tr><th>Format</th><th>For</th></tr>
+  <tr><td>TPS</td><td>tpsDig2, tpsRelw, MorphoJ</td></tr>
+  <tr><td>Tab-separated (mm)</td><td>PAST</td></tr>
+  <tr><td>TPS + classifiers + R script</td><td>R / geomorph</td></tr>
+  <tr><td>Excel workbook (.xlsx)</td><td>Excel, LibreOffice</td></tr>
+  <tr><td>CSV tables</td><td>Landmarks, measurements, ratios, size-corrected data</td></tr>
+</table>
+
+<figure>
+  <img src="new-project.jpg" alt="IchthyoMetrics built-in guide to taking standard fish specimen photographs with a camera on a copy stand and a millimetre scale" width="1600" height="1000" loading="lazy">
+  <figcaption>Built-in guide to taking standard, comparable specimen photographs.</figcaption>
+</figure>
+
+<h2>Coming next: meristics</h2>
+<p>A counts module is in development: fin rays, lateral-line and transverse scales, predorsal scales,
+gill rakers, vertebrae and cephalic pores, with per-species summaries.</p>
+
+<h2>Download</h2>
+<table>
+  <tr><th>System</th><th>Install</th></tr>
+  <tr><td>Windows 10 / 11</td><td>Download the <code>-setup.exe</code> (or <code>.msi</code>) and run it. If SmartScreen warns, choose <em>More info → Run anyway</em>.</td></tr>
+  <tr><td>macOS 11+ (Apple Silicon and Intel)</td><td>Download the <code>.dmg</code>, drag IchthyoMetrics to Applications. First start: right-click the app → <em>Open</em>.</td></tr>
+</table>
+<div class="btns"><a class="btn" href="https://github.com/aravindmanoj143/ichthyometrics-releases/releases/latest">Get the latest version</a></div>
+
+<h2>How to cite</h2>
+<blockquote>Manoj, A. (2026). <em>IchthyoMetrics: software for fish morphometrics and meristics</em> (version 0.1.1). Freshwaters India Foundation. https://aravindmanoj143.github.io/ichthyometrics-releases/</blockquote>
+
+<h2>Licence</h2>
+<p>Free for research, teaching, students and other non-commercial use. Commercial use requires written
+permission. Full terms: <a href="https://github.com/aravindmanoj143/ichthyometrics-releases/blob/main/LICENSE.txt">LICENSE.txt</a>.</p>
+</main>
+<footer>
+  © 2026 Aravind Manoj · <a href="https://fwif.org/">Freshwaters India Foundation</a> ·
+  <a href="https://www.youtube.com/@AravindManoj">YouTube</a> ·
+  <a href="https://github.com/aravindmanoj143/ichthyometrics-releases">GitHub</a> ·
+  <a href="https://github.com/aravindmanoj143/ichthyometrics-releases/issues">Report a problem</a>
+</footer>
+</body>
+</html>

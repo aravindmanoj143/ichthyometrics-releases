@@ -1,5 +1,7 @@
 # IchthyoMetrics
 
+**Website: https://aravindmanoj143.github.io/ichthyometrics-releases/**
+
 **Free desktop software for fish morphometrics.** Measure fish from calibrated
 photographs: set the scale from a ruler, place landmarks, get truss-network and
 traditional measurements, and export ready-to-analyse data for MorphoJ, PAST,
