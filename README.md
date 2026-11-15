@@ -24,6 +24,14 @@ Get the latest version from **[Releases](../../releases/latest)**:
 | Windows 10 / 11 | `IchthyoMetrics_<version>_x64-setup.exe` (or `.msi`) | Run it. If SmartScreen warns, choose *More info -> Run anyway*. |
 | macOS 11+ (Apple Silicon and Intel) | `IchthyoMetrics_<version>_universal.dmg` | Open it, accept the licence, drag IchthyoMetrics to Applications. First start: right-click the app -> *Open*. |
 
+## Video tutorial
+
+Watch the step-by-step tutorial on YouTube: from setting up a project to placing landmarks and exporting results.
+
+[![IchthyoMetrics v0.1.1 tutorial on YouTube](https://img.youtube.com/vi/_m4lDe5SqaI/hqdefault.jpg)](https://www.youtube.com/watch?v=_m4lDe5SqaI)
+
+**[▶ IchthyoMetrics v0.1.1 Tutorial | Fish Morphometrics Software](https://www.youtube.com/watch?v=_m4lDe5SqaI)**
+
 ## What it does
 
 ![Choosing a landmark template for a new project](screenshots/templates.png)
